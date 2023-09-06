@@ -1,5 +1,5 @@
 import s from './Resume.module.scss';
-import { ReactComponent as FilesIcon } from '../../assets/resume-files.svg';
+import ResumeImg from '../../assets/imgs/resume.png';
 import { ReactComponent as DownloadIcon } from '../../assets/download.svg';
 import { useEffect, useRef, useState } from 'react';
 import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
@@ -11,7 +11,7 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
-  'https://raw.githubusercontent.com/vsnaichuk/vsnaichuk/master/CV.pdf';
+  'https://raw.githubusercontent.com/VictorArdila/Portafolio-Web-v1/main/CurriculumProfesionalVictorArdila.pdf?token=GHSAT0AAAAAACC4KRYHHJ5DWUMCX2PM3IIOZHY7IKQ';
 
 const Resume = () => {
   const pdfWrapper = useRef(null);
@@ -39,11 +39,11 @@ const Resume = () => {
       <div className={s.content}>
         <div className={s.header}>
           <h1 className={s.title}>
-            My <br /> Resume
+            Mi <br /> Resumen profesional
           </h1>
 
           <div className={s.filesImg}>
-            <FilesIcon />
+            <img src={ResumeImg} alt='resume' />
           </div>
         </div>
 

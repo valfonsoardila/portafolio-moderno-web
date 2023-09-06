@@ -14,28 +14,28 @@ const NavLinks = () => {
       <li>
         <NavLink to={routes.HOME} end>
           <AiOutlineHome />
-          Home
+          Inicio
         </NavLink>
       </li>
 
       <li>
         <NavLink to={routes.ABOUT}>
           <AiOutlineUser />
-          About
+          Acerca
         </NavLink>
       </li>
 
       <li>
         <NavLink to={routes.PROJECTS}>
           <AiOutlineFundProjectionScreen />
-          Projects
+          Proyectos
         </NavLink>
       </li>
 
       <li>
         <NavLink to={routes.RESUME}>
           <CgFileDocument />
-          Resume
+          CV Personal
         </NavLink>
       </li>
     </ul>

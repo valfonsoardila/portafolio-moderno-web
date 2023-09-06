@@ -88,16 +88,18 @@ fieldset{
 }
 
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: var(--bg-scroll);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: var(--bg-scroll--thumb);
+  transition: all 0.3s ease-in-out;
   border-radius: 12px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  animation: blink 1s ease infinite;
+  background: var(--bg-scroll--thumb-hover);
   border-radius: 12px;
 }
 
@@ -119,3 +121,38 @@ fieldset{
   transition: opacity .3s;
 }
 
+/* Definir la animación de parpadeo */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes lightsaberAnimation {
+  0% {
+    background: linear-gradient(to top, rgba(120, 255, 255, 0.59), rgba(18,18,32,0.8));
+  }
+  10% {
+    background: linear-gradient(to top, rgba(100, 255, 255, 0.6), rgba(18,18,32,0.75));
+  }
+  20% {
+    background: linear-gradient(to top, rgba(0, 255, 255, 0.989), rgba(18,18,32,0.6));
+  }
+  30% {
+    background: linear-gradient(to top, rgba(0, 255, 255, 0.989), rgba(18,18,32,0.6));
+  }
+  40% {
+    background: linear-gradient(to top, rgba(0, 255, 255, 0.989), rgba(18,18,32,0.6));
+  }
+  50% {
+    background: linear-gradient(to top, rgba(0, 255, 255, 0.989), rgba(18,18,32,0.6));
+  }
+  60% {
+    background: linear-gradient(to top, rgba(0, 255, 255, 0.989), rgba(18,18,32,0.6));
+  }
+  100% {
+    background: linear-gradient(to top, rgba(0, 255, 255, 0.989), rgba(18,18,32,0.6));
+  }
+}

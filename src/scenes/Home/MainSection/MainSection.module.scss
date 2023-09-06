@@ -11,9 +11,6 @@
   text-align: left;
 }
 
-.header {
-}
-
 .title {
   padding-left: .2rem;
   font-size: 2.4rem;
@@ -53,12 +50,12 @@
 
 .typewriterWrapper {
   font-size: 2.2em;
-  color: #be6adf;
+  color: var(--text-typewriter);
   font-weight: 600;
 }
 .typewriterCursor {
   font-size: 2.4em;
-  color: #b562d6;
+  color: var(--text-typewriter);
 }
 
 

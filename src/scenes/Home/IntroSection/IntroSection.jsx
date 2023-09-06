@@ -1,5 +1,5 @@
 import s from './IntroSection.module.scss';
-import avatar from '../../../assets/avatar.svg';
+import profile from '../../../assets/profile/profile.png';
 import { AiFillGithub } from 'react-icons/ai';
 import {
   FaFacebookSquare,
@@ -15,56 +15,60 @@ const IntroSection = () => {
       <div className={s.introduction}>
         <div className={s.introductionText}>
           <h1 className={s.title}>
-            LET ME <span className={s.purple}> INTRODUCE </span>{' '}
-            MYSELF
+            PERMITAME <span className={s.blue}> PRESENTARME </span>{' '}
           </h1>
 
           <div className={s.description}>
             <p>
-              I'm a React Native Developer with two years of
-              experience <br />
-              creating mobile apps for the iOS, Android, and Web
-              platforms.
+              Soy un desarrollador Full Stack con cuatro años de
+              experiencia. <br />
+              En la creacion de aplicaciones móviles para Android, Web
+              y escritorios.
             </p>
 
             <p>
-              My skills include proficiency in{' '}
+              Mis habilidades incluyen dominio de{' '}
               <i>
-                <b className={s.purple}>
-                  TypeScript, React, React Native,
+                <b className={s.blue}>
+                  React js, React Native, Flutter, .Net de C#
                 </b>
               </i>
               <br />
-              and other relevant technologies. I have experience in
-              integrating various <br />
-              third-party libraries, API integration, push
-              notifications and analytics.
+              y otras tecnologías relevantes. Tengo experiencia en la
+              integración de varias <br />
+              bibliotecas de terceros, integración de API,
+              notificaciones push y análisis.
             </p>
 
             <p>
-              My field of Interest's are building new
+              Mi campo de interés es la construcción de nuevas
               <i>
-                <b className={s.purple}> Technologies and Products</b>
+                <b className={s.blue}> tecnologías y productos.</b>
               </i>
             </p>
           </div>
         </div>
 
         <Tilt trackOnWindow={true}>
-          <LazyLoadImage alt="avatar" effect="blur" src={avatar} />
+          <LazyLoadImage
+            alt="profile"
+            effect="blur"
+            src={profile}
+            width="400px"
+          />
         </Tilt>
       </div>
 
       <div className={s.introSocial}>
-        <h1>FIND ME ON</h1>
+        <h1>Me puedes encontrar en</h1>
         <p>
-          Feel free to <span className={s.purple}>connect </span>with
-          me
+          No dudes en <span className={s.blue}>contactarte </span>
+          conmigo
         </p>
         <ul className={s.socialLinks}>
           <li className={s.socialLink}>
             <a
-              href="https://github.com/vsnaichuk"
+              href="https://github.com/VictorArdila"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
@@ -75,7 +79,7 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://www.facebook.com/Snaychuk"
+              href="https://www.facebook.com/VictorArdila2002"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
@@ -86,7 +90,7 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://t.me/snaichuk_v"
+              href="https://t.me/Victor_Ardila"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
@@ -97,7 +101,7 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://www.linkedin.com/in/volodymyr-snaichuk-74a389124/"
+              href="https://www.linkedin.com/in/victor-ardila-31a94b230/"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}

@@ -1,5 +1,6 @@
 import s from './MainSection.module.scss';
-import homeMainIcon from '../../../assets/home-main.svg';
+import homeMainRobot from '../../../assets/imgs/robot.gif';
+import homeMainAstronaut from '../../../assets/imgs/astronaut.gif';
 import Typewriter from '../../../components/UIElements/Typewriter/Typewriter';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -8,19 +9,20 @@ const MainSection = () => {
     <section className={s.content}>
       <div className={s.header}>
         <h2 style={{ paddingBottom: 15 }} className={s.title}>
-          Hi There! <span className={s.wave}>👋🏻</span>
+          Hola, Bienvenido! <span className={s.wave}>👋🏻</span>
         </h2>
 
         <h1 className={s.mainTitle}>
-          I'M
-          <strong className={s.mainName}> SNAICHUK VOLODYMYR</strong>
+          Yo soy
+          <strong className={s.mainName}> Victor Ardila</strong>
         </h1>
 
         <div style={{ paddingTop: 50 }}>
           <Typewriter
             strings={[
-              'Continuously Learning',
-              'React Native Developer',
+              'Potenciando el aprendizaje',
+              'Desarrollador FullStack',
+              'React master ⚛️',
             ]}
             wrapperClassName={s.typewriterWrapper}
             cursorClassName={s.typewriterCursor}
@@ -31,10 +33,10 @@ const MainSection = () => {
       <LazyLoadImage
         alt="home-img"
         effect="blur"
-        src={homeMainIcon}
+        src={homeMainAstronaut}
         wrapperClassName={s.homeMainIcon}
-        width="396"
-        height="400"
+        width="450"
+        height="500"
       />
     </section>
   );

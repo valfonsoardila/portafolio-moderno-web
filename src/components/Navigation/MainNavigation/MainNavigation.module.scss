@@ -7,6 +7,11 @@
 .desktop {
   display: flex;
 }
+.desktop a img{
+  display: flex;
+  width:150px;
+  align-items: center;
+}
 
 .mobile {
   display: none;

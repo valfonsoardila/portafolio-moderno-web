@@ -14,14 +14,14 @@ const Footer = () => {
     <div className={s.footer}>
       <div className={s.container}>
         <div className={s.copyright}>
-          <h1>Made with ❤️ by Snaichuk Volodymyr</h1>
+          <h1>Hecho por Victor Ardila ¡HappyCoders😄!</h1>
         </div>
 
         <div className={s.body}>
           <ul className={s.socialIcons}>
             <li>
               <a
-                href="https://github.com/vsnaichuk"
+                href="https://github.com/VictorArdila"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="github"
@@ -31,7 +31,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.facebook.com/Snaychuk"
+                href="https://www.facebook.com/VictorArdila2002"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="facebook"
@@ -41,7 +41,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://t.me/snaichuk_v"
+                href="https://t.me/Victor_Ardila"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="TelegramPlane"
@@ -51,7 +51,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/volodymyr-snaichuk-74a389124/"
+                href="https://www.linkedin.com/in/victor-ardila-31a94b230/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="linkedin"

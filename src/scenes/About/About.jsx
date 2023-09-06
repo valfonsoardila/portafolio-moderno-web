@@ -1,6 +1,6 @@
 import s from './About.module.scss';
 import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
-import aboutPromoImg from '../../assets/about-promo.svg';
+import aboutPromoImg from '../../assets/imgs/about-promo.png';
 import AboutTextCard from './AboutTextCard/AboutTextCard';
 import TechSkills from './TechSkills/TechSkills';
 import GithubActivity from './GithubActivity/GithubActivity';
@@ -12,7 +12,7 @@ const About = () => {
         <div className={s.about}>
           <div className={s.aboutDescription}>
             <h1 className={s.title}>
-              Know Who <b className={s.purple}>I'M</b>
+              Conozca más <b className={s.purple}>quien soy</b>
             </h1>
             <AboutTextCard />
           </div>
@@ -23,7 +23,7 @@ const About = () => {
         </div>
 
         <h2 className={s.skills}>
-          Professional <b className={s.purple}>Skills</b>
+          <b className={s.purple}>Habilidades</b> Profesionales
         </h2>
         <TechSkills />
 
