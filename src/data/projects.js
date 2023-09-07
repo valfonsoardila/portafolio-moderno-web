@@ -1,192 +1,164 @@
 const data = [
   {
     id: '1',
-    title: 'Syntho',
+    title: 'YouGym App Frontend Web',
     description:
-      'Syntho is an electronic music education application. Connect with like minded users as you build your own custom profile, communicate and share music via the newsfeed.',
+      'Este es el desarrollo Frontend de la aplicacion de administracion de gimnasio hecho en react. Con Landing page y dashboard app.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1671564532/portfolio/projects/Syntho/Screenshot_2022-12-20_at_21.26.17_1_c59hzo.jpg',
+      src: 'https://user-images.githubusercontent.com/89551043/260635029-a434c012-039f-411f-ab72-474065add6fd.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://apps.apple.com/us/app/syntho/id1615419392',
+      repo: 'https://github.com/VictorArdila/YouGym-App-Web-Frontend',
     },
     technologies: [
-      '#typescript',
+      '#react-js',
       '#react-native',
       '#react-native-web',
-      '#mobx-state-tree',
-      '#expo',
-      '#i18next',
-      '#react-navigation',
-      '#sentry',
+      '#styleds-components'
     ],
   },
   {
     id: '2',
-    title: 'Minfin - Currency Rates',
+    title: 'YouGym App Backend Web',
     description:
-      'Minfin Currency - application with all necessary information about currency: from currency rates - to the nearest places where you can exchange currency in your city.',
+      'Desarrollo de Backend de la app YouGym web hecho en Node Js, Express y Mongo db.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1671563302/portfolio/projects/minfin/Screenshot_2022-12-20_at_21.06.43_vl5h6k.jpg',
+      src: 'https://user-images.githubusercontent.com/89551043/258622074-7dffb556-0de7-4e23-8e8f-6fd8ffd5790e.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://apps.apple.com/us/app/minfin-currency-rates/id1574863878',
+      repo: 'https://github.com/VictorArdila/YouGym-App-Web-Backend.git',
     },
     technologies: [
-      '#typescript',
-      '#react-native',
-      '#mobx-keystone',
-      '#i18next',
-      '#firebase-analytics',
-      '#google-maps',
+      '#Node Js',
+      '#Express',
+      '#Mongo db',
     ],
   },
   {
     id: '3',
-    title: 'Outfitr',
+    title: 'AI Emotion app',
     description:
-      'A react native app with animations made with react-native-reanimated. The app is based on the Outfitr - Fashion UI Kit.',
+      'Software de reconocimiento de emociones desarrollado con python y PyQt5. Con Inteligencia artificial. Hasta 5 emociones en tiempo real, a traves de redes convolucionales.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1671562261/portfolio/projects/fashion/Screenshot_2022-12-20_at_20.45.27_peyqly.jpg',
+      src: 'https://user-images.githubusercontent.com/89551043/261832864-725e9bd2-306c-4e00-b1e5-04f5f725a00c.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/rn-fashion?serviceType=classic&distribution=expo-go',
-      repo: 'https://github.com/vsnaichuk/fashion-app',
+      site: 'https://www.facebook.com/100070327928352/videos/638023017941212/',
+      repo: 'https://github.com/VictorArdila/AI-Emotion-app.git',
     },
     technologies: [
-      '#typescript',
-      '#react-native',
+      '#python',
+      '#pyqt5',
       '#expo',
-      '#react-native-reanimated',
-      '#react-navigation',
+      '#IA',
+      '#redes convolucionales',
     ],
   },
   {
     id: '4',
-    title: 'Apiko Marketplace',
+    title: 'Ac Fashion Store App',
     description:
-      'An online marketplace made with React. The project was developed on 8th Apiko Intensive.',
+      'Tienda de ropa mobil para la venta de outfis mcomerce.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
+      src: 'https://github-production-user-asset-6210df.s3.amazonaws.com/89551043/258562024-274a4a08-0057-4850-b93a-4565da1ad03a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230906%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230906T215919Z&X-Amz-Expires=300&X-Amz-Signature=8cdf525d65a80cb77caa00b61a4ba75641fc20fb52e57ee53257a405fb7c09a4&X-Amz-SignedHeaders=host&actor_id=89551043&key_id=0&repo_id=669545334',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://apiko-marketplace-app-snaichuk.herokuapp.com/',
-      repo: 'https://github.com/vsnaichuk/apiko-marketplace-app-snaichuk',
+      repo: 'https://github.com/VictorArdila/AC-Fashion-Store-Client.git',
     },
     technologies: [
-      '#react',
-      '#redux',
-      '#socket.io',
-      '#scss',
-      '#formik',
-      '#react-window',
-      '#restapi',
+      '#flutter',
+      '#supabase',
+      '#dart',
+      '#client',
     ],
   },
   {
     id: '5',
-    title: 'Places App',
+    title: 'My Wallet App',
     description:
-      'A MERN app to let users share their experience of places along with Details. It is user friendly and can be useful to many others.',
+      'Aplicacion movil con inicio de sesion y registro de ingresos de gastos y dinero en tiempo real.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348070/portfolio/projects/mern-places/mern-places-lg_xf6zom.jpg',
+      src: 'https://user-images.githubusercontent.com/89551043/265178454-0c6f4f26-f73e-4d2b-a663-54fec3380f89.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://yourplaces-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/MERN-places',
+      repo: 'https://github.com/VictorArdila/My-Wallet-App.git',
     },
     technologies: [
-      '#react',
-      '#nodejs',
-      '#express',
-      '#mongodb',
-      '#react-query',
-      '#react-transition-group',
-      '#mongoose',
-      '#jwt',
-      '#aws',
+      '#flutter',
+      '#firebase',
+      '#dart',
+      '#user',
     ],
   },
   {
     id: '6',
-    title: 'eCommerce Mobile App',
+    title: 'NetduinoUPC App',
     description:
-      'A Mobile eCommerce application built with React Native that includes cart functionality, push notifications, user authentication and user orders',
+      'Aplicacion para ascensor inteligente + arduino',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-shop/rn-shop-lg_fofglf.jpg',
+      src: 'https://user-images.githubusercontent.com/89551043/266155946-531ceec3-a25d-4f1c-b6c1-4e4fd63223d2.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/online-shop-app',
-      repo: 'https://github.com/vsnaichuk/RN-shop',
+      repo: 'https://github.com/VictorArdila/Netduino-UPC-App.git',
     },
     technologies: [
-      '#react-native',
+      '#flutter',
       'expo',
-      '#redux',
-      '#redux-toolkit',
-      '#react-navigation',
-      '#nodejs',
-      '#express',
-      '#mongodb',
+      '#arduino',
+      '#dart',
+      '#user',
     ],
   },
   {
     id: '7',
-    title: 'Places Mobile App',
+    title: 'Admin YouGym Desktop',
     description:
-      'A Mobile application for sharing places that people visit from all over the world. Uses React Native, TypeScript, MobX and Native Device Features',
+      'Sistema de información para la gestión de un gimnasio, desarrollado y enfocado al control de los usuarios, los entrenadores, los horarios, las clases, los pagos y las rutinas de entrenamiento.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-places/rn-places-lg_ljyikm.jpg',
+      src: 'https://user-images.githubusercontent.com/89551043/266174926-f186eab2-0a3c-4387-99b3-e794e6ff6e32.jpeg',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/rn-places',
-      repo: 'https://github.com/vsnaichuk/RN-places',
+      repo: 'https://github.com/VictorArdila/AdminYouGym-Con-BD-v2.git',
     },
     technologies: [
-      '#react-native',
-      '#typescript',
-      '#expo',
-      '#mobx',
-      '#sqlite',
-      '#react-native-maps',
-      '#expo-location',
+      '#C#',
+      '#SQL Server',
+      '#Windows Forms',
+      '#Entity Framework',
     ],
   },
   {
     id: '8',
-    title: 'Shopping Cart',
+    title: 'Admin Pharm App',
     description:
-      'Simple eCommerce cart application built with React and TypeScript. Uses SWR hook to fetch the data from the API and Styled Components',
+      'Sistema de Información para la gestión de una farmacia, desarrollado y enfocado al control de los usuarios, los medicamentos, los proveedores, los clientes, las ventas y las compras.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/react-shop-cart/rn-shop-cart-lg_w3qxn6.jpg',
+      src: 'https://user-images.githubusercontent.com/89551043/266192825-b408b8dc-60a5-4d91-802f-044d944866b3.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://shopping-cart-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/React-ShoppingCart',
+      repo: 'https://github.com/VictorArdila/Admin-Pharm-con-BD-Proyecto.git',
     },
     technologies: [
-      '#react',
-      '#typescript',
-      '#material-ui',
-      '#styled-components',
-      '#swr',
-      '#fakestoreapi',
+      '#C#',
+      '#SQL Server',
+      '#Windows Forms',
+      '#Entity Framework',
     ],
   },
 ];

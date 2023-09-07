@@ -11,7 +11,7 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
-  'https://raw.githubusercontent.com/VictorArdila/Portafolio-Web-v1/main/CurriculumProfesionalVictorArdila.pdf?token=GHSAT0AAAAAACC4KRYHHJ5DWUMCX2PM3IIOZHY7IKQ';
+  'https://raw.githubusercontent.com/VictorArdila/Portafolio-Web-v1/main/CurriculumProfesionalVictorArdila.pdf?token=GHSAT0AAAAAACC4KRYGJ3XLIUUO7O5OCSQ2ZHZKI5A';
 
 const Resume = () => {
   const pdfWrapper = useRef(null);
