@@ -55,6 +55,12 @@
   height: 45px;
   padding: 0;
 }
+.closeButton > svg {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}
 
 @media (max-height: 575px) {
   .body {

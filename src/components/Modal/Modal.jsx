@@ -2,8 +2,9 @@ import s from './Modal.module.scss';
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
-import { ReactComponent as ModalCloseIcon } from '../../assets/modal-close.svg';
 import Backdrop from '../UIElements/Backdrop/Backdrop';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClose } from '@fortawesome/free-solid-svg-icons';
 
 const Modal = ({ children, show, onClose }) => {
   const navigate = useNavigate();
@@ -37,7 +38,7 @@ const Modal = ({ children, show, onClose }) => {
         <div className={s.modal}>
           <div className={s.closeWrapper} onClick={closeModal}>
             <button className={s.closeButton}>
-              <ModalCloseIcon className={s.closeIcon} />
+              <FontAwesomeIcon icon={faClose} />
             </button>
           </div>
 

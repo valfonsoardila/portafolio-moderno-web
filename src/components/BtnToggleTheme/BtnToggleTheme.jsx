@@ -1,15 +1,15 @@
 import { useMemo } from 'react';
-import s from './BtnToggleTheme.module.scss';
+// import s from './BtnToggleTheme.module.scss';
 import Button from '../UIElements/Button/Button';
-import { ReactComponent as ToggleLightIcon } from '../../assets/toggle-light.svg';
-import { ReactComponent as ToggleDarkIcon } from '../../assets/toggle-dark.svg';
 import { useThemeContext } from '../../hooks/themeHook/themeHook';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faMoon, faSun} from '@fortawesome/free-solid-svg-icons';
 
 const BtnToggleTheme = ({ className }) => {
   const { dark, toggleTheme } = useThemeContext();
 
   const ToggleThemeIcon = useMemo(
-    () => (dark ? ToggleDarkIcon : ToggleLightIcon),
+    () => (dark ? faSun : faMoon),
     [dark],
   );
 
@@ -19,7 +19,7 @@ const BtnToggleTheme = ({ className }) => {
       onClick={toggleTheme}
       label="theme toggle"
     >
-      <ToggleThemeIcon className={s.toggleTheme} />
+      <FontAwesomeIcon icon={ToggleThemeIcon} />
     </Button>
   );
 };

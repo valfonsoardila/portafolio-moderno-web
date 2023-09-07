@@ -1,13 +1,14 @@
 import s from './Resume.module.scss';
 import ResumeImg from '../../assets/imgs/resume.png';
-import { ReactComponent as DownloadIcon } from '../../assets/download.svg';
 import { useEffect, useRef, useState } from 'react';
 import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
 import LinerProgress from '../../components/UIElements/LinerProgress/LinerProgress';
 import Button from '../../components/UIElements/Button/Button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 //react-pdf
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
@@ -53,7 +54,7 @@ const Resume = () => {
           href={resumeLink}
           target="_blank"
         >
-          <DownloadIcon fill="#fff" />
+          <FontAwesomeIcon icon={faDownload} />
           <span className={s.downloadText}> download resume</span>
           <span className={s.filename}>.pdf</span>
         </Button>
