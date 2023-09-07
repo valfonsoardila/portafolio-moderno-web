@@ -3,13 +3,13 @@ import { useMemo } from 'react';
 import Button from '../UIElements/Button/Button';
 import { useThemeContext } from '../../hooks/themeHook/themeHook';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faMoon, faSun} from '@fortawesome/free-solid-svg-icons';
+import {faCloudMoon, faCloudSun} from '@fortawesome/free-solid-svg-icons';
 
 const BtnToggleTheme = ({ className }) => {
   const { dark, toggleTheme } = useThemeContext();
 
   const ToggleThemeIcon = useMemo(
-    () => (dark ? faSun : faMoon),
+    () => (dark ? faCloudSun : faCloudMoon),
     [dark],
   );
 
