@@ -14,7 +14,7 @@ const Footer = () => {
     <div className={s.footer}>
       <div className={s.container}>
         <div className={s.copyright}>
-          <h1>Hecho por Victor Ardila ¡HappyCoders😄!</h1>
+          <h1>Hecho por Victor Ardila ¡HappyCoders😄! 2023©</h1>
         </div>
 
         <div className={s.body}>

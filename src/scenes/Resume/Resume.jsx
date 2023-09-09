@@ -1,6 +1,7 @@
 import s from './Resume.module.scss';
 import ResumeImg from '../../assets/imgs/resume.png';
 import { ReactComponent as DownloadIcon } from '../../assets/download.svg';
+import CV from '../../assets/pdf/MiCV.pdf';
 import { useEffect, useRef, useState } from 'react';
 import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
 import LinerProgress from '../../components/UIElements/LinerProgress/LinerProgress';
@@ -10,12 +11,12 @@ import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink =
-  'https://raw.githubusercontent.com/VictorArdila/Portafolio-Web-v1/main/CurriculumProfesionalVictorArdila.pdf?token=GHSAT0AAAAAACC4KRYGJ3XLIUUO7O5OCSQ2ZHZKI5A';
+const resumeLink = CV;
 
 const Resume = () => {
   const pdfWrapper = useRef(null);
   const [pdfPageWidth, setPdfPageWidth] = useState(null);
+
   useEffect(() => {
     setPdfPageWidth(
       pdfWrapper.current?.getBoundingClientRect().width || null,
@@ -43,7 +44,7 @@ const Resume = () => {
           </h1>
 
           <div className={s.filesImg}>
-            <img src={ResumeImg} alt='resume' />
+            <img src={ResumeImg} alt="resume" />
           </div>
         </div>
 
@@ -54,16 +55,14 @@ const Resume = () => {
           target="_blank"
         >
           <DownloadIcon fill="#fff" />
-          <span className={s.downloadText}> download resume</span>
+          <span className={s.downloadText}> descargar CV</span>
           <span className={s.filename}>.pdf</span>
         </Button>
 
         <div className={s.pdfWrapper} ref={pdfWrapper}>
           <Document
             loading={<LinerProgress />}
-            file={{
-              url: resumeLink,
-            }}
+            file={CV}
           >
             <Page
               onLoadSuccess={removeTextLayerOffset}

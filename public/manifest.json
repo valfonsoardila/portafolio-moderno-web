@@ -1,6 +1,6 @@
 {
-  "name": "Portfolio React Application",
-  "short_name": "React-Portfolio",
+  "name": "Portafolio Web",
+  "short_name": "Portafolio",
   "icons": [
     {
       "src": "/icons/48.png",
@@ -36,9 +36,9 @@
   "start_url": ".",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#000",
+  "background_color": "#fff",
   "theme_color": "#181a27",
-  "description": "A simple Portfolio App, implementing a lot of PWA",
+  "description": "Portafolio App para definicion personal",
   "dir": "ltr",
-  "lang": "en-US"
+  "lang": "es-ES"
 }
