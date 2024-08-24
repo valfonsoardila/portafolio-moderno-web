@@ -1,4 +1,4 @@
-# Portafolio Web v1
+# Portafolio Moderno Web
 Portafolio web hecho en React Js
 
 ## `Modo claro`
